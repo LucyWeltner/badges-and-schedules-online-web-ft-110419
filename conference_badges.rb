@@ -15,7 +15,7 @@ def assign_rooms(array)
   counter = 1 
   p array.size
   room_assignments = []
-  if array.size + 1 < 7
+  if array.size - 1 < 7
     array.each do |name|
       room_assignments << "Hello, #{name}! You'll be assigned to room #{counter}!"
         counter += 1
