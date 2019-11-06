@@ -13,7 +13,6 @@ end
 
 def assign_rooms(array)
   counter = 1 
-  p array.size
   room_assignments = []
   if array.size - 1 < 7
     array.each do |name|
@@ -24,5 +23,8 @@ def assign_rooms(array)
   end
 end
 
-
+def printer(array)
+  puts batch_badge_creator(array)
+  puts assign_rooms(array)
+end
   # Write your code here.
